@@ -1,2 +1,17 @@
-
+*{
+	box-sizing:border-box;
+	padding:0px;
+	margin:0px;
+}
+.holder{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	gap:5px;
+}
+.item{
+	background:green;
+	width:25%;
+	height:100px;
+}
 /* Your CSS Code here. */
